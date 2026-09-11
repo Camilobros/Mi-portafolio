@@ -7,12 +7,6 @@ function updateClock() {
         setInterval(updateClock, 1000);
         updateClock();
 
-        const sysBtn = document.getElementById('sysMenuBtn');
-        if (sysBtn) {
-            sysBtn.addEventListener('click', () => {
-                alert("Bryan Camilo Díaz Sánchez // Portfolio\n\n- Cap. I: Sobre Mí & Perfil\n- Cap. II: Habilidades & Disciplinas\n- Cap. III: Proyectos & Experiencia\n- Cap. IV: Contacto & Redes");
-            });
-        }
 
         tailwind.config = {
             darkMode: 'class',
